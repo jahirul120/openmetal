@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+/*main header section*/
+.header-area{
+	background-color: #2477B4;
+	font-family: italic;
+}
+.header-area span{
+	color: silver;
+	display: block;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+.header-area span a{
+	color: #fff;
+	padding: 0 5px;
+	font-family: italic;
+}
+/*navbar section*/
+.navbar{
+	padding: 0;
+	font-family: italic;
+	border-bottom: 1px solid #ddd;
+}
+.navbar .container a{
+	color: #000;
+}
+.navbar .container 
+a span{
+	color: #3AC7A3;
+}
+.navbar .container
+a img{
+	width: 50px;
+}
+.navbar-nav{
+
+}
+.navbar-nav .nav-item .nav-link{
+	color: #fff;
+	background: linear-gradient(90deg, #3AC7A3, #0074E8);
+	border-radius: 50px;
+	padding: 5px 20px;
+}
+/*landing section*/
+.landing-section{
+
+}
+.landing-section
+.heading-section{
+	padding-top: 30%;
+}
+.landing-section
+.heading-section p{
+	color: #000;
+	font-size: 32px;
+	font-weight: 600;
+	font-family: 'Nova Square', sans-serif;
+}
+.landing-section
+.heading-section p span{
+	color: #38C6A1;
+	padding: 0 5px;
+}
+.landing-section
+.pra-section{
+	color: silver;
+}
+.landing-section
+.link-section{
+	padding-top: 10%;
+}
+.landing-section
+.link-section
+.btn-left{
+	display: inline-block;
+	background: linear-gradient(90deg, #37C3A6, #5692CE);
+	padding: 5px 20px;
+	border-radius: 5px;
+	color: #fff;
+	margin-right: 5px;
+}
+.landing-section
+.link-section
+.btn-left:hover{
+	
+}
+.landing-section
+.link-section
+.btn-right{
+	display: inline-block;
+	background: linear-gradient(90deg, #5692CE, #37C3A6);
+	padding: 5px 20px;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 5px;
+}
+.landing-section
+.link-section
+.btn-right:hover{
+	
+}
+.ldn-img{
+	padding-top: 10%;
+
+}
+.ldn-img img{
+	width: 100%;
+}
+/*cmp logo section*/
+.cmp-logo{
+	padding-top: 5%;
+}
+.cmp-logo h2{
+	text-align: center;
+    color: #3ABEAA;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2.5%;
+    font-family: 'Nova Square', sans-serif;
+}
+.cmp-logo .datadog{
+	float: left;
+	color: #642EA2;
+	font-weight: bold;
+
+}
+.cmp-logo .datadog img{
+	width: 40px;
+}
+.cmp-logo .datadog img:hover{
+
+}
+.cmp-logo .ansible{
+	float: right;
+	color: ;
+	font-weight: bold;
+}
+.cmp-logo .ansible img{
+	width: 40px;
+}
+.cmp-logo .ansible img:hover{
+
+}
+.cmp-logo .openstack{
+	text-align: center;
+	color: #D1018C;
+	font-weight: bold;
+}
+.cmp-logo .openstack img{
+	width: 40px;
+}
+.cmp-logo .openstack img:hover{
+
+}
+
+.cmp-logo .kubernstac{
+	float: left;
+	color: #316CE5;
+	font-weight: bold;
+}
+.cmp-logo .kubernstac img{
+	width: 50px;
+	display: inline-block;
+}
+.cmp-logo .kubernstac img:hover{
+
+}
+.cmp-logo .ceph{
+	float: right;
+	color: #F05C56;
+	font-weight: bold;
+}
+.cmp-logo .ceph img{
+	width: 40px;
+	display: inline-block;
+}
+.cmp-logo .ceph img:hover{
+
+}
+/* service-sec */
+.service-sec {
+	padding: 10% 0;
+	background: linear-gradient(90deg, #2C92A7, #35B791);
+}
+.service-sec img{
+	width: 100%;
+	border-radius: 5px;
+}
+.service-sec h2{
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+.service-sec p{
+	text-align: center;
+	color: #ddd;
+	padding-bottom: 2.5%;
+	border-bottom: 1px solid #A6A6A6;
+}
+.service-sec .ser-img,.ser-dtl{
+	padding-top: 10%;
+}
+.service-sec
+.ser-dtl{
+	padding-top: 25%;
+}
+.service-sec
+.ser-img,.ser-dtl p{
+	text-align: justify;
+	border: none;
+}
+/* cloud section */
+.cld-sec{
+	text-align: center;
+	background-color: #ECF1FB;
+}
+.cld-sec P{
+	color: #A6A6A6;
+}
+.cld-ser-left{
+	text-align: center;
+}
+.cld-ser-left
+.car_h{
+	padding: 10% 0;
+	border-radius: 10px 10px 0 0;
+	background-color: #F6FAFD;
+}
+.cld-ser-left h2{
+	font-size: 20px;
+	font-weight: 600;
+	color: #34B493;
+
+}
+.cld-ser-left h3{
+	font-size: 20px;
+	padding-top: 20%;
+	color: #34B493;
+}
+.cld-ser-left p{
+	font-size: 15px;
+	color: #333;
+}
+.cld-ser-left h4,a{
+	font-size: 18px;
+	color: #606060;
+	font-weight: 400;
+
+}
+.cld-ser-mid{
+	text-align: center;
+}
+.cld-ser-mid h2{
+	font-weight: bold;
+	color: #34B493;
+	font-size: 20px;
+}
+.cld-ser-mid p{
+	font-weight: bold;
+	color: #606060;
+	font-size: 20px;
+}
+.cld-ser-mid img{
+	width: 100%;
+	border-radius: 5px;
+}
+.cld-ser-right{
+	background-color: #267AB6;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	border-radius: 10px;
+	position: relative;
+}
+.cld-ser-right h2{
+	position: absolute;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.1);
+	padding-top: 15%;
+	padding-bottom: 5%;
+  	margin: 0;
+  	width: 100%;
+}
+.cld-ser-right p{
+	position: absolute;
+	font-weight: bold;
+	color: #fff;
+	font-size: 15px;
+	margin: 0;
+	width: 100%;
+}
+.cld-ser-right h3{
+	color: #fff;
+	font-weight: 400;
+	padding-top: 50%;
+}
+.cld-ser-right h4{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+.cld-ser-right a{
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 10%;
+}
+
+/*-- customer feedback --*/
+.cld-cus-cart{
+	text-align: left;
+	margin-bottom: 5%;	
+    padding-top: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.cld-cus-cart .checked{
+	color: orange;
+}
+.cld-cus-cart p{
+	padding-top: 25%;
+	padding-bottom: 5%;
+}
+.cus-det{
+	padding-bottom: 10%;
+}
+.cus-det img{
+	width: 55px;
+	float: left;
+	border-radius: 50px;
+	margin-right: 5%;
+}
+.cus-det h2{
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.cus-det span{
+	font-weight: 400;
+	font-size: 13px;
+	color: #606060;
+}
+/* contact section */
+.cnt-sec{
+	color: #fff;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(image/bckimg.jpg);
+}
+.bck-img h3{
+	color: #fff;
+	font-weight: bold;
+}
+.bck-img h3 span{
+	color: #3E7699;
+	cursor: pointer;
+
+}
+.bck-img p{
+	color: #606060;
+}
+.bck-img .btn-left{
+	display: inline;
+}
+.bck-img .btn-right{
+	display: inline;
+}
+.bck-img .btn-left a{
+	background: linear-gradient(90deg, #36C1A9, #057BE2);
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-weight: 400;
+	color: #fff;
+}
+.bck-img .btn-right a{
+	background-color: ;
+	color: #fff;
+	font-weight: 400;
+	border: 1px solid #267AB6;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+/* footer section */
+.ftr-sec{
+	background: linear-gradient(90deg, #2E9BA2, #33B095);
+	color: #fff;
+	text-align: center;
+}
+.ftr-sec .bnd-logo-name{
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.ftr-sec
+.bnd-logo-name
+img{
+	width: 50px;
+}
+.ftr-sec .copy-right{
+	border-top: 1px solid #ddd;
+	text-align: center;
+	font-family: italic;
+	font-size: 18px;
+}
+.ftr-sec .copy-right p{
+	margin: 5px 0;
+}
